@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-t&x91&go+j$xuiipa(o=c8&stty*(+@a!h2z#_wko5$p8km$5x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "onrender.com"]
 
 
 # Application definition
@@ -71,7 +71,7 @@ CORS_ALLOWED_ORIGINS = [
 
 
 # Add this to allow credentials
-CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOW_CREDENTIALS = True
 
 # Ensure these headers are included
 CORS_ALLOW_HEADERS = [
