@@ -65,13 +65,13 @@ CSRF_COOKIE_HTTPONLY = False  # Keep this False to allow JavaScript to access th
 CSRF_COOKIE_SAMESITE = 'Lax'  # Use 'Strict' in production
 
 
-CORS_ALLOWED_ORIGINS = [
-    'https://business-online-assessment-system-frontend.vercel.app/',
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'https://business-online-assessment-system-frontend.vercel.app/',
+# ]
 
 
 # Add this to allow credentials
-# CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_CREDENTIALS = True
 
 # Ensure these headers are included
 CORS_ALLOW_HEADERS = [
