@@ -1,0 +1,9 @@
+POST http://localhost:8000/api/auth/token
+    Content-Type: application/json
+    Accept: application/json
+{
+
+username: dvooskid1234@gmail.com,
+password: Dvooskid001
+
+}
