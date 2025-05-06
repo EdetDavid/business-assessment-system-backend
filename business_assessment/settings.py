@@ -59,14 +59,14 @@ MIDDLEWARE = [
 
 
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000']
+CSRF_TRUSTED_ORIGINS = ['https://business-online-assessment-system-frontend.vercel.app/']
 CSRF_COOKIE_SECURE = False  # Set to True in production with HTTPS
 CSRF_COOKIE_HTTPONLY = False  # Keep this False to allow JavaScript to access the cookie
 CSRF_COOKIE_SAMESITE = 'Lax'  # Use 'Strict' in production
 
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
+    'https://business-online-assessment-system-frontend.vercel.app/',
 ]
 
 
